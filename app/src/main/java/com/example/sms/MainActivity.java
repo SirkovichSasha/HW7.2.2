@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private Button callBtn;
     private Button sendBtn;
 
-    final public static int MY_PERMISSIONS_REQUEST_CALL_PHONE = 10;
-    final public static int MY_PERMISSIONS_REQUEST_SEND_SMS = 11;
+    final private static int MY_PERMISSIONS_REQUEST_CALL_PHONE = 10;
+    final private static int MY_PERMISSIONS_REQUEST_SEND_SMS = 11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
